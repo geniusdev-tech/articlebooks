@@ -1,5 +1,5 @@
 {
-  "name": "storybooks",
+  "name": "articlebooks",
   "version": "1.0.0",
   "description": "App for creating public and private stories",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon app",
     "postinstall": "node ./scripts/post-install.js"
   },
-  "author": "Brad Traversy",
+  "author": "Rodrigo Lima",
   "license": "MIT",
   "dependencies": {
     "connect-mongo": "^4.6.0",
