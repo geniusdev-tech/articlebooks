@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node app",
     "dev": "nodemon app",
-    "build": "build node app",
     "postinstall": "node ./scripts/post-install.js"
   },
   "author": "Rodrigo Lima",
