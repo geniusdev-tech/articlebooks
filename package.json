@@ -4,15 +4,17 @@
   "description": "App for creating public and private stories",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=development nodemon app",
+    "start": "node app",
+    "dev": "nodemon app",
+    "build": "build node app",
     "postinstall": "node ./scripts/post-install.js"
   },
   "author": "Rodrigo Lima",
   "license": "MIT",
   "dependencies": {
+    "build-react-npm": "^0.3.4",
     "connect-mongo": "^4.6.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "express-session": "^1.17.1",
@@ -26,7 +28,6 @@
     "typegoose": "^5.9.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
     "nodemon": "^2.0.4"
   }
 }
