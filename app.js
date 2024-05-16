@@ -72,7 +72,7 @@ app.use(session({
   secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false,
-    store: MongoStore.create({mongoUrl:"mongodb+srv://rodrigo:nses100@cluster0.sm4jhb5.mongodb.net/articlebook?retryWrites=true&w=majority",}),
+    store: MongoStore.create({mongoUrl:"mongodb+srv://rodrigo:Nses100@x.xlnsedo.mongodb.net/?retryWrites=true&w=majority&appName=x",}),
   })
 )
 
