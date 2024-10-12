@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
+    "build": "vite build", 
     "dev": "nodemon app",
     "postinstall": "node ./scripts/post-install.js"
   },
@@ -24,7 +25,8 @@
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
-    "typegoose": "^5.9.1"
+    "typegoose": "^5.9.1",
+    "vite": "^5.4.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
