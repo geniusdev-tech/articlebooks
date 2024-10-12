@@ -1,0 +1,10 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build: npm run build
+        deploy: npm install
+    subdomain: articlebooks2
+name: articlebooks2
+region: us-east-1
+yamlVersion: 2
